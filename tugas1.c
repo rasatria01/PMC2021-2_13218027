@@ -76,7 +76,7 @@ void isib()
 	printf("\nHasil \nA=%d\nB=%d\nstep=%d",a,b,i);
 	
 }
-int main(int argc, char **argv)
+int main()
 {
 	int choose;
 	do
@@ -89,6 +89,10 @@ int main(int argc, char **argv)
 		}else if(choose==2)
 		{
 			isib();
+		}
+		else
+		{
+			printf("\nOpsi salah silakan input ulang\n\n");
 		}
 	} while ((choose<1) || (choose>2));
 	
